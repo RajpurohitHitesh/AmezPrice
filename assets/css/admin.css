@@ -274,3 +274,127 @@ label {
         transform: translateX(0);
     }
 }
+/* Social & Security Settings Styles */
+.settings-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.settings-card {
+    flex: 1;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.settings-card h2 {
+    margin-bottom: 20px;
+    color: #374151;
+    border-bottom: 2px solid #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2563EB;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-group small {
+    display: block;
+    margin-top: 4px;
+    color: #6B7280;
+    font-size: 12px;
+}
+
+.form-group small a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+.form-group small a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+.alert-success {
+    background: #D1FAE5;
+    color: #065F46;
+    border: 1px solid #A7F3D0;
+}
+
+.alert-error {
+    background: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FECACA;
+}
+
+.settings-submenu {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.settings-submenu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #6B7280;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.settings-submenu a:hover {
+    color: #374151;
+}
+
+.settings-submenu a.active {
+    color: #2563EB;
+    border-bottom-color: #2563EB;
+}
+
+/* Responsive design for settings */
+@media (max-width: 768px) {
+    .settings-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .settings-submenu {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .settings-submenu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

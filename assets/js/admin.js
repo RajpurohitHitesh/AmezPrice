@@ -618,3 +618,88 @@ async function submitForm(endpoint, data) {
         showPopup(POPUPS.ERROR, `<h3>Error</h3><p>${result.message}</p>`);
     }
 }
+
+// Social & Security Settings Functions
+function initSocialSecuritySettings() {
+    // Handle Social Media form submission
+    const socialForm = document.getElementById('social-form');
+    if (socialForm) {
+        socialForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch('/admin/settings/social_security.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    showAlert('success', data.message);
+                } else {
+                    showAlert('error', data.message);
+                }
+            })
+            .catch(error => {
+                showAlert('error', 'An error occurred while saving social media settings');
+                console.error('Error:', error);
+            });
+        });
+    }
+
+    // Handle Security form submission
+    const securityForm = document.getElementById('security-form');
+    if (securityForm) {
+        securityForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch('/admin/settings/social_security.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    showAlert('success', data.message);
+                } else {
+                    showAlert('error', data.message);
+                }
+            })
+            .catch(error => {
+                showAlert('error', 'An error occurred while saving security settings');
+                console.error('Error:', error);
+            });
+        });
+    }
+}
+
+// Show alert function for settings
+function showAlert(type, message) {
+    const alertElement = document.getElementById(type + '-alert');
+    if (alertElement) {
+        alertElement.textContent = message;
+        alertElement.style.display = 'block';
+        
+        // Hide other alert
+        const otherType = type === 'success' ? 'error' : 'success';
+        const otherAlert = document.getElementById(otherType + '-alert');
+        if (otherAlert) {
+            otherAlert.style.display = 'none';
+        }
+        
+        // Auto hide after 5 seconds
+        setTimeout(() => {
+            alertElement.style.display = 'none';
+        }, 5000);
+    }
+}
+
+// Initialize settings when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.pathname.includes('social_security.php')) {
+        initSocialSecuritySettings();
+    }
+});
