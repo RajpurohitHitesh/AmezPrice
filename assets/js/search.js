@@ -290,13 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
         hidePopup('error-popup');
         hideRecentSearchesDropdown();
     });
-    if (popupOverlay) {
-    popupOverlay.addEventListener('click', () => {
-        hidePopup('search-preview-popup');
-        hidePopup('error-popup');
-        hideRecentSearchesDropdown();
-    });
-    }
 
     // Focus on input when page loads
     if (searchInput) {
