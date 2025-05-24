@@ -100,11 +100,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo json_encode(['status' => 'error', 'message' => 'Invalid or expired OTP']);
             exit;
         }
-
-        // OTP verified successfully - Clear existing session data but keep session active
-        // Don't use session_unset() as it clears all session data
         
         // Set session variables
+        // After successful OTP verification
         if ($isAdmin) {
             $_SESSION['admin_id'] = $account['id'];
             $_SESSION['is_admin'] = true;
@@ -112,13 +110,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['user_id'] = $account['id'];
             $_SESSION['is_admin'] = false;
         }
-        
+
         $_SESSION['username'] = $account['username'];
         $_SESSION['email'] = $account['email'];
         $_SESSION['user_type'] = $isAdmin ? 'admin' : 'user';
         $_SESSION['authenticated'] = true;
 
-        // Generate JWT token with PROPER SIGNATURE
+        // Generate JWT token
         $jwtPayload = [
             'user_id' => $account['id'],
             'email' => $account['email'],
@@ -127,46 +125,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'exp' => time() + $securityConfig['jwt']['timeout'],
             'iat' => time()
         ];
-        
+
         $header = json_encode(['typ' => 'JWT', 'alg' => 'HS256']);
         $payload = json_encode($jwtPayload);
-        
-        // Use base64_encode instead of URL-safe encoding for consistency
+
         $base64Header = base64_encode($header);
         $base64Payload = base64_encode($payload);
-        
-        // Generate signature using same method as in auth.php verification
-        $signature = hash_hmac('sha256', $base64Header . "." . $base64Payload, $securityConfig['jwt']['secret'], true);
+
+        $signature = hash_hmac('sha256', 
+            $base64Header . "." . $base64Payload, 
+            $securityConfig['jwt']['secret'], 
+            true
+        );
         $base64Signature = base64_encode($signature);
-        
+
         $jwt = $base64Header . "." . $base64Payload . "." . $base64Signature;
         $_SESSION['jwt'] = $jwt;
 
-        // After setting session variables in login.php
-        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Session variables set: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
-        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] JWT token generated and stored in session\n", FILE_APPEND);
+        // Log successful JWT generation
+        error_log("[" . date('Y-m-d H:i:s') . "] JWT token generated and stored in session");
 
-        // Delete used OTP
-        $stmt = $pdo->prepare("DELETE FROM otps WHERE email = ?");
-        $stmt->execute([$account['email']]);
-
-        // Determine redirect URL
-        $redirectUrl = $isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
-
-        // Log successful login
-        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Successful login for {$account['email']}, Session ID: " . session_id() . ", Redirecting to: {$redirectUrl}\n", FILE_APPEND);
-
-        // IMPORTANT: Write session data before sending response
         session_write_close();
-        
-        // Send success response
+
+        // Send response
         echo json_encode([
             'status' => 'success',
-            'redirect' => $redirectUrl,
+            'redirect' => $isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php',
             'message' => 'Login successful',
             'user_type' => $isAdmin ? 'admin' : 'user',
-            'is_admin' => $isAdmin,
-            'is_authenticated' => true
+            'is_admin' => $isAdmin
         ]);
         
         exit;
