@@ -26,7 +26,6 @@ if (isset($_SESSION['user_id'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include '../include/header.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AmezPrice - Track prices for Amazon and Flipkart products, get AI-powered deal recommendations, and save on your purchases.">
@@ -38,6 +37,7 @@ if (isset($_SESSION['user_id'])) {
     <title>AmezPrice - Price Tracking</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/search.css">
+    <?php include '../include/header.php'; ?>
 </head>
 <body>
     <?php include 'include/navbar.php'; ?>
