@@ -37,6 +37,7 @@ if (isset($_SESSION['user_id'])) {
     <title>AmezPrice - Price Tracking</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/search.css">
+    <?php include '../include/header.php'; ?>
 </head>
 <body>
     <?php include 'include/navbar.php'; ?>
