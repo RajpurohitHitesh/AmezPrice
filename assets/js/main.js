@@ -889,20 +889,19 @@ async submitOtp() {
         if (result.status === 'success') {
             Popup.hide('otp-popup');
             console.log('Login successful, redirecting to:', result.redirect);
-    
-            // Add a short delay before redirect to ensure popup is closed
+            
+            // Clear any existing timeouts
             setTimeout(() => {
                 if (result.redirect) {
-                    // Prevent form submission/page refresh by using direct window.location
-                    window.location.href = result.redirect;
+                    console.log('Executing redirect to:', result.redirect);
+                    // Use location.replace to prevent back button issues
+                    window.location.replace(result.redirect);
                 } else {
                     // Fallback redirect
-                    window.location.href = '/user/dashboard.php';
+                    console.log('No redirect provided, using fallback');
+                    window.location.replace('/user/dashboard.php');
                 }
-            }, 300);
-            
-            // Return false to prevent form submission
-            return false;
+            }, 200);
         } else {
             throw new Error(result.message || 'OTP verification failed');
         }
