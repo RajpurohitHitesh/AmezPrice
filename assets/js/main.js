@@ -246,30 +246,40 @@ const Popup = {
         popup.dataset.previousActive = previousActiveElement ? previousActiveElement.id : '';
     },
 
-    hide(id) {
+       hide(id) {
         const popup = document.getElementById(id);
         if (!popup) {
             console.error(`Popup with ID ${id} not found at:`, new Date().toISOString());
             return;
-        }
-        const overlay = document.querySelector('.popup-overlay');
-        popup.style.opacity = '0';
-        overlay.style.opacity = '0';
-
-        setTimeout(() => {
-            popup.style.display = 'none';
-            overlay.style.display = 'none';
+                    }
+                    const overlay = document.querySelector('.popup-overlay');
+                
+            // Clear any existing transition
             popup.style.transition = '';
             overlay.style.transition = '';
+            
+            // Hide immediately
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
             document.body.style.overflow = 'auto';
 
+            // Clear opacity
+            popup.style.opacity = '0';
+            overlay.style.opacity = '0';
+
+            // Reset any form inside popup
+            const form = popup.querySelector('form');
+            if (form) {
+                form.reset();
+            }
+
+            // Restore focus to previous element
             const previousActiveId = popup.dataset.previousActive;
             if (previousActiveId) {
                 const previousElement = document.getElementById(previousActiveId);
                 if (previousElement) previousElement.focus();
             }
-        }, config.popup.animationDuration);
-    }
+        }
 };
 
 // Push Notification Module
@@ -900,12 +910,21 @@ const Auth = {
             if (response.status === 'success') {
                 // Clear any pending state
                 this.pendingAuth = null;
-                Popup.hide('otp-popup');
-                Popup.hide('error-popup');
-                Popup.hide('login-popup');
-
-                // Remove any overlay
-                document.querySelector('.popup-overlay')?.style.display = 'none';
+                
+                // Hide all popups
+                document.querySelectorAll('.popup').forEach(popup => {
+                    Popup.hide(popup.id);
+                });
+                
+                // Remove overlay
+                const overlay = document.querySelector('.popup-overlay');
+                if (overlay) {
+                    overlay.style.display = 'none';
+                    overlay.style.opacity = '0';
+                }
+                
+                // Clear any form data
+                document.querySelectorAll('form').forEach(form => form.reset());
                 
                 // Force redirect
                 if (response.redirect) {
@@ -913,6 +932,7 @@ const Auth = {
                 } else {
                     window.location.href = response.is_admin ? '/admin/dashboard' : '/user/dashboard';
                 }
+
             } else {
                 throw new Error(response.message || 'OTP verification failed');
             }
