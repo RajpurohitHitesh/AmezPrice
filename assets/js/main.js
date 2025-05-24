@@ -886,19 +886,36 @@ const Auth = {
                 throw new Error('Session expired. Please restart the process.');
             }
 
-            const data = {
-                identifier: document.getElementById('otp-identifier').value,
-                password: document.getElementById('otp-password').value,
+            // Prepare data based on form type
+            let data = {
                 otp: otpInput.value.trim()
             };
 
-            // Determine the correct endpoint based on the form type
             let endpoint = '/auth/login.php';
-            if (this.pendingAuth.formType === 'forgot-password-form') {
+
+            // Handle different form types
+            if (this.pendingAuth.formType === 'login-form') {
+                data.identifier = this.pendingAuth.formData.identifier;
+                data.password = this.pendingAuth.formData.password;
+                endpoint = '/auth/login.php';
+            } else if (this.pendingAuth.formType === 'signup-form') {
+                data.first_name = this.pendingAuth.formData.first_name;
+                data.last_name = this.pendingAuth.formData.last_name;
+                data.username = this.pendingAuth.formData.username;
+                data.email = this.pendingAuth.formData.email;
+                data.password = this.pendingAuth.formData.password;
+                endpoint = '/auth/signup.php';
+            } else if (this.pendingAuth.formType === 'forgot-password-form') {
+                data.email = this.pendingAuth.formData.email;
+                if (this.pendingAuth.formData.new_password) {
+                    data.new_password = this.pendingAuth.formData.new_password;
+                    data.confirm_password = this.pendingAuth.formData.confirm_password;
+                }
                 endpoint = '/auth/forgot-password.php';
-                data.new_password = this.pendingAuth.formData.new_password;
-                data.confirm_password = this.pendingAuth.formData.confirm_password;
             }
+
+            console.log('Sending OTP verification with data:', data);
+            console.log('To endpoint:', endpoint);
 
             const response = await fetchWithCsrf(endpoint, {
                 method: 'POST',
@@ -906,9 +923,17 @@ const Auth = {
                 credentials: 'same-origin'
             });
 
+            console.log('OTP verification response:', response);
+
             if (response.status === 'success') {
                 // Clear any pending state
                 this.pendingAuth = null;
+                
+                // Clear any existing timers
+                if (this.resendTimer) {
+                    clearInterval(this.resendTimer);
+                    this.resendTimer = null;
+                }
                 
                 // Hide all popups immediately
                 document.querySelectorAll('.popup').forEach(popup => {
@@ -929,27 +954,45 @@ const Auth = {
                 // Clear any form data
                 document.querySelectorAll('form').forEach(form => form.reset());
                 
-                // Force immediate redirect
-                if (response.redirect) {
-                    window.location.replace(response.redirect);
+                // Show success message briefly before redirect
+                if (this.pendingAuth?.formType === 'signup-form') {
+                    Popup.show('success-popup', `
+                        <h3>Success!</h3>
+                        <p>Account created successfully. Redirecting to login...</p>
+                    `);
+                    setTimeout(() => {
+                        if (response.redirect) {
+                            window.location.href = response.redirect;
+                        } else {
+                            window.location.href = '/auth/login.php';
+                        }
+                    }, 1500);
                 } else {
-                    window.location.replace(response.is_admin ? '/admin/dashboard' : '/user/dashboard');
+                    // For login, redirect immediately
+                    if (response.redirect) {
+                        window.location.href = response.redirect;
+                    } else if (response.is_admin) {
+                        window.location.href = '/admin/dashboard';
+                    } else {
+                        window.location.href = '/user/dashboard';
+                    }
                 }
                 
-                // Return early to prevent any other processing
-                return;
+                return; // Prevent further processing
             } else {
-          throw new Error(response.message || 'OTP verification failed');
-        }
+                throw new Error(response.message || 'OTP verification failed');
+            }
         } catch (error) {
             console.error('OTP verification error:', error);
-            Popup.show('error-popup', error.message || 'Failed to verify OTP');
+            Popup.show('error-popup', `
+                <h3>Error</h3>
+                <p>${error.message || 'Failed to verify OTP'}</p>
+            `);
         } finally {
             submitBtn.disabled = false;
             submitBtn.innerHTML = originalText;
         }
-    },
-
+},
     async resendOtp() {
         if (!this.pendingAuth) {
             Popup.show('error-popup', 'Session expired. Please restart the process.');
