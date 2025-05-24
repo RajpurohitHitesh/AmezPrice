@@ -21,8 +21,9 @@ function startApplicationSession() {
         // Log session initialization
         file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Session started: " . session_id() . ", Secure: " . ($isSecure ? 'yes' : 'no') . "\n", FILE_APPEND);
         
-        // Regenerate session ID to prevent fixation - only first time
-        if (!isset($_SESSION['initialized'])) {
+        // Only regenerate session ID for unauthenticated sessions
+        // Don't regenerate if user is already authenticated
+        if (!isset($_SESSION['initialized']) && !isset($_SESSION['authenticated'])) {
             session_regenerate_id(true);
             $_SESSION['initialized'] = true;
             file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Session ID regenerated: " . session_id() . "\n", FILE_APPEND);
