@@ -202,17 +202,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     <!-- OTP Popup -->
     <div id="otp-popup" class="popup" style="display: none;">
-        <i class="fas fa-times popup-close" aria-label="Close OTP Popup"></i>
-        <div class="popup-content">
+    <i class="fas fa-times popup-close" aria-label="Close OTP Popup" onclick="Popup.hide('otp-popup')"></i>
+    <div class="popup-content">
+        <form id="otp-form" onsubmit="return false;">
             <h3>Enter OTP</h3>
             <p>OTP sent to your email.</p>
-            <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP">
-            <button class="btn btn-primary" onclick="Auth.submitOtp()">Submit</button>
-            <button class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
+            <input type="text" name="otp" id="otp-input" placeholder="Enter OTP" required aria-label="OTP">
+            <input type="hidden" name="identifier" id="otp-identifier">
+            <input type="hidden" name="password" id="otp-password">
+            <button type="button" class="btn btn-primary" onclick="Auth.submitOtp()">Submit</button>
+            <button type="button" class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
             <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
             <a href="#" id="resend-otp" style="display: none;" onclick="Auth.resendOtp()">Resend OTP</a>
-        </div>
+        </form>
     </div>
+</div>
     
     <!-- Error Popup -->
     <div id="error-popup" class="popup" style="display: none;">

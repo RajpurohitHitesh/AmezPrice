@@ -3,14 +3,14 @@
 function startApplicationSession() {
     if (session_status() === PHP_SESSION_NONE) {
         $isSecure = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || 
-                   $_SERVER['SERVER_NAME'] === 'www.amezprice.com';
+                   (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https');
         
         $sessionOptions = [
             'name' => 'AMEZPRICE_SESSID',
             'cookie_lifetime' => 86400,
             'cookie_path' => '/',
-            'cookie_domain' => $_SERVER['HTTP_HOST'] ?? '',
-            'cookie_secure' => $isSecure, // ← यहाँ change किया गया
+            'cookie_domain' => '', // Leave empty for compatibility
+            'cookie_secure' => $isSecure,
             'cookie_httponly' => true,
             'cookie_samesite' => 'Lax',
             'use_strict_mode' => true
@@ -21,7 +21,7 @@ function startApplicationSession() {
         // Log session initialization
         file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Session started: " . session_id() . ", Secure: " . ($isSecure ? 'yes' : 'no') . "\n", FILE_APPEND);
         
-        // Regenerate session ID to prevent fixation - केवल पहली बार
+        // Regenerate session ID to prevent fixation - only first time
         if (!isset($_SESSION['initialized'])) {
             session_regenerate_id(true);
             $_SESSION['initialized'] = true;

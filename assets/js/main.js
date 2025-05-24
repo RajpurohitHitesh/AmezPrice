@@ -813,69 +813,75 @@ async submitForgotPassword(url, data, form) {
 },
 
         showOtpPopup(form, data, emailKey) {
-        Popup.show('otp-popup', `
-            <h3>Enter OTP</h3>
-            <p>OTP sent to your email.</p>
-            <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP" class="form-control mb-3">
-            <div class="d-flex gap-2">
-                <button class="btn btn-primary flex-grow-1" id="submit-otp-btn">Submit</button>
-                <button class="btn btn-secondary" id="cancel-otp-btn">Cancel</button>
-            </div>
-            <div class="mt-3 text-center">
-                <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
-                <a href="#" id="resend-otp" style="display: none;">Resend OTP</a>
-            </div>
-        `);
+    // Set the identifier and password in hidden fields
+    document.getElementById('otp-identifier').value = data.identifier;
+    document.getElementById('otp-password').value = data.password;
+    
+    Popup.show('otp-popup', `
+        <h3>Enter OTP</h3>
+        <p>OTP sent to your email.</p>
+        <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP" class="form-control mb-3">
+        <input type="hidden" name="identifier" id="otp-identifier">
+        <input type="hidden" name="password" id="otp-password">
+        <div class="d-flex gap-2">
+            <button class="btn btn-primary flex-grow-1" id="submit-otp-btn">Submit</button>
+            <button class="btn btn-secondary" id="cancel-otp-btn">Cancel</button>
+        </div>
+        <div class="mt-3 text-center">
+            <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
+            <a href="#" id="resend-otp" style="display: none;">Resend OTP</a>
+        </div>
+    `);
+    
+    // Bind events after popup is shown
+    setTimeout(() => {
+        const submitBtn = document.getElementById('submit-otp-btn');
+        const cancelBtn = document.getElementById('cancel-otp-btn');
+        const resendBtn = document.getElementById('resend-otp');
+        const otpInput = document.getElementById('otp-input');
         
-        // Bind events after popup is shown
-        setTimeout(() => {
-            const submitBtn = document.getElementById('submit-otp-btn');
-            const cancelBtn = document.getElementById('cancel-otp-btn');
-            const resendBtn = document.getElementById('resend-otp');
-            const otpInput = document.getElementById('otp-input');
-            
-            if (submitBtn) {
-                submitBtn.addEventListener('click', (e) => {
+        if (submitBtn) {
+            submitBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                this.submitOtp();
+            });
+        }
+        
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                Popup.hide('otp-popup');
+            });
+        }
+        
+        if (resendBtn) {
+            resendBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                this.resendOtp();
+            });
+        }
+        
+        // Enter key support for OTP input
+        if (otpInput) {
+            otpInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
                     e.preventDefault();
                     e.stopPropagation();
                     this.submitOtp();
-                });
-            }
-            
-            if (cancelBtn) {
-                cancelBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    Popup.hide('otp-popup');
-                });
-            }
-            
-            if (resendBtn) {
-                resendBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    this.resendOtp();
-                });
-            }
-            
-            // Enter key support for OTP input
-            if (otpInput) {
-                otpInput.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        this.submitOtp();
-                    }
-                });
-                otpInput.focus();
-            }
-            
-        }, 100);
+                }
+            });
+            otpInput.focus();
+        }
         
-        this.startResendTimer();
-        form.dataset.lastData = JSON.stringify(data);
-        form.dataset.email = data[emailKey];
-    },
+    }, 100);
+    
+    this.startResendTimer();
+    form.dataset.lastData = JSON.stringify(data);
+    form.dataset.email = data[emailKey];
+},
 
 // SubmitOtp function
 async submitOtp() {
@@ -885,12 +891,9 @@ async submitOtp() {
         return;
     }
 
-    const form = document.getElementById('login-form') || 
-                  document.getElementById('signup-form') || 
-                  document.getElementById('otp-form');
-    
-    if (!form || !form.dataset.email) {
-        Popup.show('error-popup', '<h3>Error</h3><p>Form data missing. Please try again.</p>', true);
+    const form = document.getElementById('login-form');
+    if (!form) {
+        Popup.show('error-popup', '<h3>Error</h3><p>Login session expired. Please refresh the page.</p>', true);
         return;
     }
 
@@ -903,22 +906,16 @@ async submitOtp() {
             submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Verifying...';
         }
 
-        const data = form.dataset.lastData ? JSON.parse(form.dataset.lastData) : {};
-        data.otp = otpInput.value.trim();
-        
-        if (form.id === 'otp-form') {
-            data.email = form.dataset.email;
-            data.new_password = form.querySelector('input[name="new_password"]')?.value.trim();
-            data.confirm_password = form.querySelector('input[name="confirm_password"]')?.value.trim();
-        }
-
-        const url = form.id === 'login-form' ? '/auth/login.php' : 
-                    form.id === 'signup-form' ? '/auth/signup.php' : 
-                    '/auth/forgot-password.php';
+        const formData = new FormData(form);
+        const data = {
+            identifier: formData.get('identifier').trim(),
+            password: formData.get('password').trim(),
+            otp: otpInput.value.trim()
+        };
 
         console.log('Submitting OTP with data:', data);
 
-        const result = await fetchWithCsrf(url, {
+        const result = await fetchWithCsrf('/auth/login.php', {
             method: 'POST',
             body: JSON.stringify(data),
             credentials: 'same-origin'
@@ -926,29 +923,23 @@ async submitOtp() {
 
         console.log('OTP submission result:', result);
 
-        if (!result || typeof result !== 'object') {
-            throw new Error('Invalid server response');
-        }
-
         if (result.status === 'success') {
             Popup.hide('otp-popup');
             console.log('Login successful, redirecting to:', result.redirect);
             
-            // Disable any other JavaScript that might interfere
-            window.onbeforeunload = null;
-            
-            // Force redirect using location.replace instead of href
-            if (result.redirect) {
-                console.log('Executing redirect to:', result.redirect);
-                window.location.replace(result.redirect);
-            } else {
-                // Fallback redirect based on user type
-                const isAdmin = result.user_type === 'admin' || result.is_admin;
-                const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
-                console.log('No redirect provided, using fallback:', fallbackUrl);
-                window.location.replace(fallbackUrl);
+            // Clear any existing timers/intervals
+            if (window.authResendTimer) {
+                clearInterval(window.authResendTimer);
             }
-            return; // Prevent further execution
+            
+            // Force redirect
+            if (result.redirect) {
+                window.location.href = result.redirect;
+            } else {
+                // Fallback redirect
+                const isAdmin = result.user_type === 'admin' || result.is_admin;
+                window.location.href = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
+            }
         } else {
             throw new Error(result.message || 'OTP verification failed');
         }
