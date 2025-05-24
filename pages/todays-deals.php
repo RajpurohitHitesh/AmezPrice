@@ -84,7 +84,6 @@ $metaDescription = $category ? "Discover the best deals on $category at AmezPric
     <meta name="description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",

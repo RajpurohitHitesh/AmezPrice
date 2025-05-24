@@ -146,7 +146,6 @@ if (isset($_GET['unsubscribe']) && $_GET['unsubscribe'] === 'true') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/user.css">
-    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include '../include/navbar.php'; ?>
