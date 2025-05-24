@@ -872,13 +872,6 @@ async submitOtp() {
             data.confirm_password = form.querySelector('input[name="confirm_password"]')?.value.trim();
         }
 
-        // Check if response has required data
-        if (!result || typeof result !== 'object') {
-            throw new Error('Invalid server response');
-        }
-        
-        console.log('Full OTP result:', result);
-
         const url = form.id === 'login-form' ? '/auth/login.php' : 
                     form.id === 'signup-form' ? '/auth/signup.php' : 
                     '/auth/forgot-password.php';
@@ -892,6 +885,12 @@ async submitOtp() {
         });
 
         console.log('OTP submission result:', result);
+
+          if (!result || typeof result !== 'object') {
+            throw new Error('Invalid server response');
+        }
+        
+        console.log('Full OTP result:', result);
 
         if (result.status === 'success') {
             Popup.hide('otp-popup');
