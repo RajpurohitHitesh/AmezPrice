@@ -2,10 +2,12 @@
 require_once '../config/database.php';
 require_once '../config/security.php';
 require_once '../middleware/csrf.php';
+require_once '../middleware/auth.php';
 require_once '../config/session.php';
 
-// Start session first
+// अब यह safely session start करेगा बिना regenerate किए
 startApplicationSession();
+requireAdminAuth();
 
 // Debug logging
 error_log("Session data on dashboard: " . print_r($_SESSION, true));
