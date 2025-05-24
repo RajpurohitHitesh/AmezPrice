@@ -204,7 +204,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php include __DIR__ . '/../include/footer.php'; ?>
     
     <!-- OTP Popup -->
-    <<div id="otp-popup" class="popup" style="display: none;">
+    <div id="otp-popup" class="popup" style="display: none;">
     <i class="fas fa-times popup-close" aria-label="Close OTP Popup" onclick="Popup.hide('otp-popup')"></i>
     <div class="popup-content">
         <form id="otp-verification-form" onsubmit="return false;">
@@ -224,7 +224,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
     </div>
 </div>
-    
+
     <!-- Error Popup -->
     <div id="error-popup" class="popup" style="display: none;">
         <i class="fas fa-times popup-close" aria-label="Close Error Popup"></i>

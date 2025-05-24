@@ -901,6 +901,11 @@ const Auth = {
                 // Clear any pending state
                 this.pendingAuth = null;
                 Popup.hide('otp-popup');
+                Popup.hide('error-popup');
+                Popup.hide('login-popup');
+
+                // Remove any overlay
+                document.querySelector('.popup-overlay')?.style.display = 'none';
                 
                 // Force redirect
                 if (response.redirect) {
