@@ -812,33 +812,75 @@ async submitForgotPassword(url, data, form) {
     }
 },
 
-    showOtpPopup(form, data, emailKey) {
+        showOtpPopup(form, data, emailKey) {
         Popup.show('otp-popup', `
             <h3>Enter OTP</h3>
             <p>OTP sent to your email.</p>
             <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP" class="form-control mb-3">
             <div class="d-flex gap-2">
-                <button class="btn btn-primary flex-grow-1" onclick="Auth.submitOtp()">Submit</button>
-                <button class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
+                <button class="btn btn-primary flex-grow-1" id="submit-otp-btn">Submit</button>
+                <button class="btn btn-secondary" id="cancel-otp-btn">Cancel</button>
             </div>
             <div class="mt-3 text-center">
                 <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
-                <a href="#" id="resend-otp" style="display: none;" onclick="Auth.resendOtp()">Resend OTP</a>
+                <a href="#" id="resend-otp" style="display: none;">Resend OTP</a>
             </div>
         `);
+        
+        // Bind events after popup is shown
+        setTimeout(() => {
+            const submitBtn = document.getElementById('submit-otp-btn');
+            const cancelBtn = document.getElementById('cancel-otp-btn');
+            const resendBtn = document.getElementById('resend-otp');
+            const otpInput = document.getElementById('otp-input');
+            
+            if (submitBtn) {
+                submitBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.submitOtp();
+                });
+            }
+            
+            if (cancelBtn) {
+                cancelBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    Popup.hide('otp-popup');
+                });
+            }
+            
+            if (resendBtn) {
+                resendBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.resendOtp();
+                });
+            }
+            
+            // Enter key support for OTP input
+            if (otpInput) {
+                otpInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.submitOtp();
+                    }
+                });
+                otpInput.focus();
+            }
+            
+        }, 100);
         
         this.startResendTimer();
         form.dataset.lastData = JSON.stringify(data);
         form.dataset.email = data[emailKey];
-        
-        setTimeout(() => {
-            const otpInput = document.getElementById('otp-input');
-            if (otpInput) otpInput.focus();
-        }, 100);
     },
 
 // SubmitOtp function
 async submitOtp() {
+    console.log('submitOtp called');
+    
     const otpInput = document.getElementById('otp-input');
     if (!otpInput || !otpInput.value.trim()) {
         Popup.show('error-popup', '<h3>Error</h3><p>Please enter the OTP</p>', true);
@@ -854,7 +896,7 @@ async submitOtp() {
         return;
     }
 
-    const submitBtn = form.querySelector('button[type="submit"]');
+    const submitBtn = document.getElementById('submit-otp-btn') || form.querySelector('button[type="submit"]');
     const originalText = submitBtn?.innerHTML;
     
     try {
@@ -877,6 +919,8 @@ async submitOtp() {
                     '/auth/forgot-password.php';
 
         console.log('Submitting OTP with data:', data);
+        console.log('About to fetch with URL:', url);
+        console.log('Current page URL:', window.location.href);
 
         const result = await fetchWithCsrf(url, {
             method: 'POST',
@@ -885,28 +929,35 @@ async submitOtp() {
         });
 
         console.log('OTP submission result:', result);
+        console.log('Result type:', typeof result);
+        console.log('Result keys:', Object.keys(result || {}));
 
-          if (!result || typeof result !== 'object') {
+        if (!result || typeof result !== 'object') {
             throw new Error('Invalid server response');
         }
         
         console.log('Full OTP result:', result);
 
         if (result.status === 'success') {
+            console.log('SUCCESS BLOCK ENTERED');
+            
             Popup.hide('otp-popup');
             console.log('Login successful, redirecting to:', result.redirect);
             
-            // Immediate redirect without setTimeout
-            if (result.redirect) {
-                console.log('Executing redirect to:', result.redirect);
-                window.location.href = result.redirect;
-            } else {
-                // Fallback redirect based on user type
-                const isAdmin = result.user_type === 'admin' || result.is_admin;
-                const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
-                console.log('No redirect provided, using fallback:', fallbackUrl);
-                window.location.href = fallbackUrl;
-            }
+            // Use setTimeout to ensure popup is hidden before redirect
+            setTimeout(() => {
+                if (result.redirect) {
+                    console.log('Executing redirect to:', result.redirect);
+                    window.location.href = result.redirect;
+                } else {
+                    // Fallback redirect based on user type
+                    const isAdmin = result.user_type === 'admin' || result.is_admin;
+                    const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
+                    console.log('No redirect provided, using fallback:', fallbackUrl);
+                    window.location.href = fallbackUrl;
+                }
+            }, 100);
+            
             return; // Prevent further execution
         } else {
             throw new Error(result.message || 'OTP verification failed');

@@ -106,6 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // OTP verified successfully - Set up session
+    // session_regenerate_id(true); // COMMENTED - causing session conflicts
     session_regenerate_id(true); // Regenerate session ID for security
     
     // Set session variables
