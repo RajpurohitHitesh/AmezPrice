@@ -6,7 +6,7 @@ require_once __DIR__ . '/../email/send.php';
 require_once __DIR__ . '/../middleware/csrf.php';
 require_once __DIR__ . '/../config/session.php';
 
-// Session start करें
+// Session start
 startApplicationSession();
 
 // Log form rendering - केवल GET request के लिए
@@ -118,6 +118,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['user_type'] = $isAdmin ? 'admin' : 'user';
         $_SESSION['authenticated'] = true;
 
+        // After setting session variables in login.php
+        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Session variables set: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
+
         // Generate JWT token
         $jwtPayload = [
             'user_id' => $account['id'],
@@ -201,19 +204,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php include __DIR__ . '/../include/footer.php'; ?>
     
     <!-- OTP Popup -->
-    <div id="otp-popup" class="popup" style="display: none;">
+    <<div id="otp-popup" class="popup" style="display: none;">
     <i class="fas fa-times popup-close" aria-label="Close OTP Popup" onclick="Popup.hide('otp-popup')"></i>
     <div class="popup-content">
-        <form id="otp-form" onsubmit="return false;">
+        <form id="otp-verification-form" onsubmit="return false;">
             <h3>Enter OTP</h3>
-            <p>OTP sent to your email.</p>
-            <input type="text" name="otp" id="otp-input" placeholder="Enter OTP" required aria-label="OTP">
-            <input type="hidden" name="identifier" id="otp-identifier">
-            <input type="hidden" name="password" id="otp-password">
-            <button type="button" class="btn btn-primary" onclick="Auth.submitOtp()">Submit</button>
-            <button type="button" class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
-            <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
-            <a href="#" id="resend-otp" style="display: none;" onclick="Auth.resendOtp()">Resend OTP</a>
+            <p>OTP sent to your email</p>
+            <input type="text" id="otp-input" name="otp" placeholder="Enter OTP" required aria-label="OTP">
+            <input type="hidden" id="otp-identifier" name="identifier">
+            <input type="hidden" id="otp-password" name="password">
+            <div class="button-group">
+                <button type="button" class="btn btn-primary" onclick="Auth.verifyOtp()">Verify</button>
+                <button type="button" class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
+            </div>
+            <div class="otp-resend">
+                <p id="resend-timer">Resend OTP in <span id="timer">30</span>s</p>
+                <a href="#" id="resend-otp" onclick="Auth.resendOtp()">Resend OTP</a>
+            </div>
         </form>
     </div>
 </div>
