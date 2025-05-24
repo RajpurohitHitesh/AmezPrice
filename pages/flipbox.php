@@ -32,7 +32,6 @@ $totalPages = ceil($total / $perPage);
     <meta name="keywords" content="Flipkart Flipbox, deals, discounts, AmezPrice, shopping">
     <title>Flipkart Flipbox Deals - Page <?php echo $page; ?> - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="https://kit.fontawesome.com/<?php echo htmlspecialchars($fontawesomeConfig['kit_id']); ?>.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include '../include/navbar.php'; ?>

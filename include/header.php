@@ -12,4 +12,4 @@ $csrfToken = generateCsrfToken();
 <meta name="csrf-token" content="<?php echo htmlspecialchars($csrfToken); ?>">
 <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
-<script src="https://kit.fontawesome.com/cb8a78a62d.js" crossorigin="anonymous"></script>
+<script src="<?php echo htmlspecialchars($fontAwesomeKitUrl); ?>" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 <?php
 return [
-    'kit_id' => '6a410e136c'
+    'kit_id' => 'cb8a78a62d'
 ];
 ?>
