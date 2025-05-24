@@ -1,7 +1,6 @@
 <?php
 require_once 'config/database.php';
 require_once 'config/category.php';
-require_once 'config/glocals.php';
 session_start();
 
 // Fetch categories
@@ -38,7 +37,7 @@ if (isset($_SESSION['user_id'])) {
     <title>AmezPrice - Price Tracking</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/search.css">
-    <script src="<?php echo fa_kit_url(); ?>" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include 'include/navbar.php'; ?>

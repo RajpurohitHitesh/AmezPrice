@@ -55,7 +55,7 @@ $totalPages = ceil($total / $perPage);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Out of Stock Products - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/admin.css">
-    <script src="<?php echo fa_kit_url(); ?>" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include '../include/navbar.php'; ?>
