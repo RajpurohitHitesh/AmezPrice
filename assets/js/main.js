@@ -890,18 +890,18 @@ async submitOtp() {
             Popup.hide('otp-popup');
             console.log('Login successful, redirecting to:', result.redirect);
             
-            // Clear any existing timeouts
-            setTimeout(() => {
-                if (result.redirect) {
-                    console.log('Executing redirect to:', result.redirect);
-                    // Use location.replace to prevent back button issues
-                    window.location.replace(result.redirect);
-                } else {
-                    // Fallback redirect
-                    console.log('No redirect provided, using fallback');
-                    window.location.replace('/user/dashboard.php');
-                }
-            }, 200);
+            // Immediate redirect without setTimeout
+            if (result.redirect) {
+                console.log('Executing redirect to:', result.redirect);
+                window.location.href = result.redirect;
+            } else {
+                // Fallback redirect based on user type
+                const isAdmin = result.user_type === 'admin' || result.is_admin;
+                const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
+                console.log('No redirect provided, using fallback:', fallbackUrl);
+                window.location.href = fallbackUrl;
+            }
+            return; // Prevent further execution
         } else {
             throw new Error(result.message || 'OTP verification failed');
         }
