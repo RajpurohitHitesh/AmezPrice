@@ -65,14 +65,18 @@ async function fetchWithCsrf(url, options = {}) {
         
         try {
             const jsonResponse = JSON.parse(text);
-            // Add this check
-            if (jsonResponse.status === 'success' && jsonResponse.is_authenticated) {
-                // Force immediate redirect for authenticated responses
+            
+            // Only auto-redirect for non-auth endpoints
+            if (jsonResponse.status === 'success' && 
+                jsonResponse.is_authenticated && 
+                !url.includes('/auth/')) {
+                // Force immediate redirect for authenticated responses (non-auth pages)
                 if (jsonResponse.redirect) {
                     window.location.replace(jsonResponse.redirect);
                     return jsonResponse; // Return to prevent further processing
                 }
             }
+            
             return jsonResponse;
         } catch (parseError) {
             console.error('JSON parse error:', parseError);
