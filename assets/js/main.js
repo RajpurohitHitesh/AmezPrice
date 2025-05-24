@@ -604,6 +604,9 @@ const ContactForm = {
 
 // Enhanced Auth Module
 const Auth = {
+    pendingAuth: null, // Track pending authentication
+    resendTimer: null, // Track resend timer
+
     init() {
         console.log('Auth module initializing at:', new Date().toISOString());
         this.initLoginForm();
@@ -720,39 +723,15 @@ const Auth = {
     },
 
     initOtpForm() {
-        const otpForm = document.getElementById('otp-form');
+        const otpForm = document.getElementById('otp-verification-form');
         if (!otpForm) {
-            console.error('OTP form not found');
+            console.error('OTP verification form not found');
             return;
         }
 
-        const newForm = otpForm.cloneNode(true);
-        otpForm.parentNode.replaceChild(newForm, otpForm);
-
-        document.getElementById('otp-form').addEventListener('submit', async (e) => {
+        otpForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const submitBtn = e.target.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
-            
-            try {
-                submitBtn.disabled = true;
-                submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Processing...';
-
-                const formData = new FormData(e.target);
-                const data = {
-                    email: e.target.dataset.email,
-                    otp: formData.get('otp').trim(),
-                    new_password: formData.get('new_password').trim(),
-                    confirm_password: formData.get('confirm_password').trim()
-                };
-
-                await this.submitForgotPassword('/auth/forgot-password.php', data, e.target);
-            } catch (err) {
-                console.error('OTP submission error:', err);
-            } finally {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = originalText;
-            }
+            this.verifyOtp();
         });
     },
 
@@ -760,7 +739,8 @@ const Auth = {
         try {
             const result = await fetchWithCsrf(url, {
                 method: 'POST',
-                body: JSON.stringify(data)
+                body: JSON.stringify(data),
+                credentials: 'same-origin'
             });
 
             if (result.status === 'success' && result.message === 'OTP sent to your email') {
@@ -781,57 +761,120 @@ const Auth = {
     },
 
 async submitForgotPassword(url, data, form) {
-    try {
-        console.log('Submitting forgot password with data:', data);
-        console.log('CSRF Token being sent:', getCsrfToken());
-        
-        const result = await fetchWithCsrf(url, {
-            method: 'POST',
-            body: JSON.stringify(data)
-        });
+        try {
+            const result = await fetchWithCsrf(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                credentials: 'same-origin'
+            });
 
-        console.log('Forgot password result:', result);
-
-        if (result.status === 'success' && result.message === 'OTP sent to your email') {
-            document.getElementById('forgot-password-form').style.display = 'none';
-            document.getElementById('otp-form').style.display = 'block';
-            document.getElementById('otp-form').dataset.email = data.email;
-            this.startResendTimer();
-        } else if (result.status === 'success') {
-            window.location.href = result.redirect;
-        } else {
-            throw new Error(result.message || 'Unknown error occurred');
+            if (result.status === 'success' && result.message === 'OTP sent to your email') {
+                this.showOtpPopup(form, data, 'email');
+            } else if (result.status === 'success') {
+                window.location.href = result.redirect;
+            } else {
+                throw new Error(result.message || 'Unknown error occurred');
+            }
+        } catch (err) {
+            console.error('Forgot password error:', err);
+            Popup.show('error-popup', `
+                <h3>Error</h3>
+                <p>${err.message || 'Failed to process request. Please try again.'}</p>
+            `, true);
+            throw err;
         }
-    } catch (err) {
-        console.error('Forgot password error:', err);
-        Popup.show('error-popup', `
-            <h3>Error</h3>
-            <p>${err.message || 'Failed to process request. Please try again.'}</p>
-        `, true);
-        throw err;
-    }
-},
+    },
 
-        showOtpPopup(form, data, emailKey) {
-    // Set the identifier and password in hidden fields
-    document.getElementById('otp-identifier').value = data.identifier;
-    document.getElementById('otp-password').value = data.password;
-    
-    Popup.show('otp-popup', `
-        <h3>Enter OTP</h3>
-        <p>OTP sent to your email.</p>
-        <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP" class="form-control mb-3">
-        <input type="hidden" name="identifier" id="otp-identifier">
-        <input type="hidden" name="password" id="otp-password">
-        <div class="d-flex gap-2">
-            <button class="btn btn-primary flex-grow-1" id="submit-otp-btn">Submit</button>
-            <button class="btn btn-secondary" id="cancel-otp-btn">Cancel</button>
-        </div>
-        <div class="mt-3 text-center">
-            <p id="resend-timer" style="display: none;">Resend in <span id="timer">30</span> seconds</p>
-            <a href="#" id="resend-otp" style="display: none;">Resend OTP</a>
-        </div>
-    `);
+    showOtpPopup(form, data, emailKey) {
+        // Store original form data
+        this.pendingAuth = {
+            formData: data,
+            formType: form.id,
+            emailKey: emailKey
+        };
+
+        // Create OTP popup with hidden fields
+        const popupContent = `
+            <h3>Enter OTP</h3>
+            <p>OTP sent to your email.</p>
+            <input type="hidden" id="otp-identifier" value="${data.identifier || data.email}">
+            <input type="hidden" id="otp-password" value="${data.password || ''}">
+            <input type="text" id="otp-input" placeholder="Enter OTP" aria-label="OTP" class="form-control mb-3">
+            <div class="d-flex gap-2">
+                <button class="btn btn-primary flex-grow-1" onclick="Auth.verifyOtp()">Submit</button>
+                <button class="btn btn-secondary" onclick="Popup.hide('otp-popup')">Cancel</button>
+            </div>
+            <div class="mt-3 text-center">
+                <p id="resend-timer" style="display: block;">Resend in <span id="timer">30</span> seconds</p>
+                <a href="#" id="resend-otp" style="display: none;" onclick="Auth.resendOtp()">Resend OTP</a>
+            </div>
+        `;
+
+        Popup.show('otp-popup', popupContent);
+        this.startResendTimer();
+    },
+
+    async verifyOtp() {
+        const otpInput = document.getElementById('otp-input');
+        if (!otpInput || !otpInput.value.trim()) {
+            Popup.show('error-popup', '<h3>Error</h3><p>Please enter the OTP code</p>', true);
+            return;
+        }
+
+        const submitBtn = document.querySelector('#otp-popup .btn-primary');
+        const originalText = submitBtn.innerHTML;
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Verifying...';
+
+        try {
+            if (!this.pendingAuth) {
+                throw new Error('Session expired. Please restart the process.');
+            }
+
+            const data = {
+                identifier: document.getElementById('otp-identifier').value,
+                password: document.getElementById('otp-password').value,
+                otp: otpInput.value.trim()
+            };
+
+            // Determine the correct endpoint based on the form type
+            let endpoint = '/auth/login.php';
+            if (this.pendingAuth.formType === 'forgot-password-form') {
+                endpoint = '/auth/forgot-password.php';
+                data.new_password = this.pendingAuth.formData.new_password;
+                data.confirm_password = this.pendingAuth.formData.confirm_password;
+            } else if (this.pendingAuth.formType === 'signup-form') {
+                endpoint = '/auth/signup.php';
+            }
+
+            const response = await fetchWithCsrf(endpoint, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                credentials: 'same-origin'
+            });
+
+            if (response.status === 'success') {
+                // Clear any pending state
+                this.pendingAuth = null;
+                Popup.hide('otp-popup');
+                
+                // Force redirect
+                if (response.redirect) {
+                    window.location.href = response.redirect;
+                } else {
+                    window.location.href = response.is_admin ? '/admin/dashboard.php' : '/user/dashboard.php';
+                }
+            } else {
+                throw new Error(response.message || 'OTP verification failed');
+            }
+        } catch (error) {
+            console.error('OTP verification error:', error);
+            Popup.show('error-popup', `<h3>Error</h3><p>${error.message || 'Failed to verify OTP'}</p>`, true);
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalText;
+        }
+    },
     
     // Bind events after popup is shown
     setTimeout(() => {
@@ -958,49 +1001,41 @@ async submitOtp() {
 },
 
     async resendOtp() {
-        const form = document.getElementById('login-form') || 
-                     document.getElementById('signup-form') || 
-                     document.getElementById('otp-form');
-        
-        if (!form || !form.dataset.email) {
-            Popup.show('error-popup', '<h3>Error</h3><p>Form data missing. Please try again.</p>', true);
+        if (!this.pendingAuth) {
+            Popup.show('error-popup', '<h3>Error</h3><p>Session expired. Please restart the process.</p>', true);
             return;
         }
 
         const resendBtn = document.getElementById('resend-otp');
-        const originalText = resendBtn?.innerHTML;
-        
+        const originalText = resendBtn.innerHTML;
+        resendBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Sending...';
+
         try {
-            if (resendBtn) {
-                resendBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
+            // Determine the correct endpoint based on the form type
+            let endpoint = '/auth/login.php';
+            if (this.pendingAuth.formType === 'forgot-password-form') {
+                endpoint = '/auth/forgot-password.php';
+            } else if (this.pendingAuth.formType === 'signup-form') {
+                endpoint = '/auth/signup.php';
             }
 
-            const data = form.dataset.lastData ? JSON.parse(form.dataset.lastData) : { email: form.dataset.email };
-            const url = form.id === 'login-form' ? '/auth/login.php' : 
-                       form.id === 'signup-form' ? '/auth/signup.php' : 
-                       '/auth/forgot-password.php';
-
-            const result = await fetchWithCsrf(url, {
+            const response = await fetchWithCsrf(endpoint, {
                 method: 'POST',
-                body: JSON.stringify(data)
+                body: JSON.stringify(this.pendingAuth.formData),
+                credentials: 'same-origin'
             });
 
-            if (result.status === 'success') {
+            if (response.status === 'success') {
+                Popup.show('success-popup', '<h3>Success</h3><p>New OTP sent to your email</p>', true);
                 this.startResendTimer();
-                Popup.show('otp-popup', document.querySelector('#otp-popup .popup-content').innerHTML);
             } else {
-                throw new Error(result.message || 'Failed to resend OTP');
+                throw new Error(response.message || 'Failed to resend OTP');
             }
-        } catch (err) {
-            console.error('Resend OTP error:', err);
-            Popup.show('error-popup', `
-                <h3>Error</h3>
-                <p>${err.message || 'Failed to resend OTP. Please try again.'}</p>
-            `, true);
+        } catch (error) {
+            console.error('Resend OTP error:', error);
+            Popup.show('error-popup', `<h3>Error</h3><p>${error.message || 'Failed to resend OTP'}</p>`, true);
         } finally {
-            if (resendBtn) {
-                resendBtn.innerHTML = originalText;
-            }
+            resendBtn.innerHTML = originalText;
         }
     },
 
@@ -1009,23 +1044,25 @@ async submitOtp() {
         const timerEl = document.getElementById('timer');
         const resendEl = document.getElementById('resend-otp');
         const timerContainer = document.getElementById('resend-timer');
-        
-        if (!timerEl || !resendEl || !timerContainer) {
-            console.error('Resend timer elements missing');
-            return;
+
+        if (!timerEl || !resendEl || !timerContainer) return;
+
+        resendEl.style.display = 'none';
+        timerContainer.style.display = 'block';
+
+        // Clear existing timer if any
+        if (this.resendTimer) {
+            clearInterval(this.resendTimer);
         }
 
-        timerContainer.style.display = 'block';
-        resendEl.style.display = 'none';
-
-        const interval = setInterval(() => {
+        this.resendTimer = setInterval(() => {
             timeLeft--;
             timerEl.textContent = timeLeft;
-            
+
             if (timeLeft <= 0) {
-                clearInterval(interval);
+                clearInterval(this.resendTimer);
                 timerContainer.style.display = 'none';
-                resendEl.style.display = 'inline-block';
+                resendEl.style.display = 'inline';
             }
         }, 1000);
     }
