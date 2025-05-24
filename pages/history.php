@@ -136,7 +136,7 @@ try {
     <meta name="twitter:card" content="summary_large_image">
     <title><?php echo htmlspecialchars($product['name']); ?> - Price History | AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/<?php echo $kit_id; ?>.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>

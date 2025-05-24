@@ -60,7 +60,7 @@ $stats = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/admin.css">
-    <script src="https://kit.fontawesome.com/6a410e136c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/<?php echo $kit_id; ?>.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include '../include/navbar.php'; ?>
