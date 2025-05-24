@@ -153,20 +153,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Log successful login
     file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Successful login for {$account['email']}, Session ID: " . session_id() . ", Redirecting to: {$redirectUrl}\n", FILE_APPEND);
 
+    // Add this debugging line
+    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Sending redirect response to {$redirectUrl}\n", FILE_APPEND);
+
     // Send success response
     echo json_encode([
         'status' => 'success',
         'redirect' => $redirectUrl,
-        'message' => 'Login successful',
-        'debug' => [
-            'session_id' => session_id(),
-            'user_id' => $account['id'],
-            'is_admin' => $isAdmin,
-            'redirect_url' => $redirectUrl,
-            'timestamp' => date('Y-m-d H:i:s')
-        ]
+        'message' => 'Login successful'
     ]);
     exit;
+
 }
 ?>
 <!DOCTYPE html>
