@@ -5,15 +5,14 @@ require_once __DIR__ . '/../config/globals.php';
 require_once __DIR__ . '/../email/send.php';
 require_once __DIR__ . '/../middleware/csrf.php';
 require_once __DIR__ . '/../config/session.php';
+
+// Session start करें
 startApplicationSession();
 
-// Ensure proper session handling
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
+// Log form rendering - केवल GET request के लिए
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Login form rendered, Session ID: " . session_id() . "\n", FILE_APPEND);
 }
-
-// Log form rendering
-file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Login form rendered, Session ID: " . session_id() . "\n", FILE_APPEND);
 
 // Handle POST requests for login processing
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -21,155 +20,154 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
     header('Cache-Control: no-cache, must-revalidate');
     
-    // Add debugging
-    error_log("Login POST request received at: " . date('Y-m-d H:i:s'));
-    error_log("Session ID: " . session_id());
+    // Prevent any output before JSON response
+    ob_clean();
     
-    // Get input data
-    $input = file_get_contents('php://input');
-    error_log("Raw input: " . $input);
-    
-    $data = json_decode($input, true);
-    if (json_last_error() !== JSON_ERROR_NONE) {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid JSON data']);
-        exit;
-    }
-    
-    error_log("Parsed data: " . print_r($data, true));
-    
-    $identifier = trim($data['identifier'] ?? '');
-    $password = trim($data['password'] ?? '');
-    $otp = $data['otp'] ?? null;
-
-    // Validate required fields
-    if (!$identifier || !$password) {
-        echo json_encode(['status' => 'error', 'message' => 'Please enter username/email and password']);
-        exit;
-    }
-
-    // Check admin account
-    $stmt = $pdo->prepare("SELECT * FROM admins WHERE username = ? OR email = ?");
-    $stmt->execute([$identifier, $identifier]);
-    $admin = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    // Check user account
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ? OR email = ?");
-    $stmt->execute([$identifier, $identifier]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    // Verify account exists
-    if (!$admin && !$user) {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid username/email']);
-        exit;
-    }
-
-    $account = $admin ?: $user;
-    $isAdmin = (bool)$admin;
-
-    // Verify password
-    if (!password_verify($password, $account['password'])) {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid password']);
-        exit;
-    }
-
-    // If no OTP provided, generate and send OTP
-    if (!$otp) {
-        // Generate 6-digit OTP
-        $otp = sprintf("%06d", random_int(0, 999999));
-        $expiresAt = date('Y-m-d H:i:s', strtotime('+5 minutes'));
-
-        // Store OTP in database
-        $stmt = $pdo->prepare("INSERT INTO otps (email, otp, expires_at) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE otp = VALUES(otp), expires_at = VALUES(expires_at)");
-        $stmt->execute([$account['email'], $otp, $expiresAt]);
-
-        // Send OTP email
-        $subject = "Your Login Verification Code";
-        $message = file_get_contents(__DIR__ . '/../email/templates/otp_email.php');
-        $message = str_replace('{{otp}}', $otp, $message);
-        sendEmail($account['email'], $subject, $message, 'otp');
-
-        // Log OTP generation
-        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] OTP sent to {$account['email']}\n", FILE_APPEND);
+    try {
+        // Get input data
+        $input = file_get_contents('php://input');
+        $data = json_decode($input, true);
         
-        echo json_encode(['status' => 'success', 'message' => 'OTP sent to your email']);
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            echo json_encode(['status' => 'error', 'message' => 'Invalid JSON data']);
+            exit;
+        }
+        
+        $identifier = trim($data['identifier'] ?? '');
+        $password = trim($data['password'] ?? '');
+        $otp = $data['otp'] ?? null;
+
+        // Validate required fields
+        if (!$identifier || !$password) {
+            echo json_encode(['status' => 'error', 'message' => 'Please enter username/email and password']);
+            exit;
+        }
+
+        // Check admin account
+        $stmt = $pdo->prepare("SELECT * FROM admins WHERE username = ? OR email = ?");
+        $stmt->execute([$identifier, $identifier]);
+        $admin = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        // Check user account
+        $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ? OR email = ?");
+        $stmt->execute([$identifier, $identifier]);
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        // Verify account exists
+        if (!$admin && !$user) {
+            echo json_encode(['status' => 'error', 'message' => 'Invalid username/email']);
+            exit;
+        }
+
+        $account = $admin ?: $user;
+        $isAdmin = (bool)$admin;
+
+        // Verify password
+        if (!password_verify($password, $account['password'])) {
+            echo json_encode(['status' => 'error', 'message' => 'Invalid password']);
+            exit;
+        }
+
+        // If no OTP provided, generate and send OTP
+        if (!$otp) {
+            // Generate 6-digit OTP
+            $otp = sprintf("%06d", random_int(0, 999999));
+            $expiresAt = date('Y-m-d H:i:s', strtotime('+5 minutes'));
+
+            // Store OTP in database
+            $stmt = $pdo->prepare("INSERT INTO otps (email, otp, expires_at) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE otp = VALUES(otp), expires_at = VALUES(expires_at)");
+            $stmt->execute([$account['email'], $otp, $expiresAt]);
+
+            // Send OTP email
+            $subject = "Your Login Verification Code";
+            $message = file_get_contents(__DIR__ . '/../email/templates/otp_email.php');
+            $message = str_replace('{{otp}}', $otp, $message);
+            sendEmail($account['email'], $subject, $message, 'otp');
+
+            // Log OTP generation
+            file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] OTP sent to {$account['email']}\n", FILE_APPEND);
+            
+            echo json_encode(['status' => 'success', 'message' => 'OTP sent to your email']);
+            exit;
+        }
+
+        // Verify OTP
+        $stmt = $pdo->prepare("SELECT * FROM otps WHERE email = ? AND otp = ? AND expires_at > NOW()");
+        $stmt->execute([$account['email'], $otp]);
+        $otpRecord = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if (!$otpRecord) {
+            echo json_encode(['status' => 'error', 'message' => 'Invalid or expired OTP']);
+            exit;
+        }
+
+        // OTP verified successfully - Clear existing session data
+        session_unset();
+        
+        // Set session variables
+        if ($isAdmin) {
+            $_SESSION['admin_id'] = $account['id'];
+            $_SESSION['is_admin'] = true;
+        } else {
+            $_SESSION['user_id'] = $account['id'];
+            $_SESSION['is_admin'] = false;
+        }
+        
+        $_SESSION['username'] = $account['username'];
+        $_SESSION['email'] = $account['email'];
+        $_SESSION['user_type'] = $isAdmin ? 'admin' : 'user';
+        $_SESSION['authenticated'] = true;
+
+        // Generate JWT token
+        $jwtPayload = [
+            'user_id' => $account['id'],
+            'email' => $account['email'],
+            'username' => $account['username'],
+            'is_admin' => $isAdmin,
+            'exp' => time() + $securityConfig['jwt']['timeout'],
+            'iat' => time()
+        ];
+        
+        $header = json_encode(['typ' => 'JWT', 'alg' => 'HS256']);
+        $payload = json_encode($jwtPayload);
+        
+        $base64Header = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($header));
+        $base64Payload = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($payload));
+        
+        $signature = hash_hmac('sha256', $base64Header . "." . $base64Payload, $securityConfig['jwt']['secret'], true);
+        $base64Signature = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($signature));
+        
+        $jwt = $base64Header . "." . $base64Payload . "." . $base64Signature;
+        $_SESSION['jwt'] = $jwt;
+
+        // Delete used OTP
+        $stmt = $pdo->prepare("DELETE FROM otps WHERE email = ?");
+        $stmt->execute([$account['email']]);
+
+        // Determine redirect URL
+        $redirectUrl = $isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
+
+        // Log successful login
+        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Successful login for {$account['email']}, Session ID: " . session_id() . ", Redirecting to: {$redirectUrl}\n", FILE_APPEND);
+
+        // Send success response
+        echo json_encode([
+            'status' => 'success',
+            'redirect' => $redirectUrl,
+            'message' => 'Login successful',
+            'user_type' => $isAdmin ? 'admin' : 'user',
+            'is_admin' => $isAdmin
+        ]);
+        
+        // Force session write and close
+        session_write_close();
+        exit;
+        
+    } catch (Exception $e) {
+        file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Login error: {$e->getMessage()}\n", FILE_APPEND);
+        echo json_encode(['status' => 'error', 'message' => 'An error occurred. Please try again.']);
         exit;
     }
-
-    // Verify OTP
-    $stmt = $pdo->prepare("SELECT * FROM otps WHERE email = ? AND otp = ? AND expires_at > NOW()");
-    $stmt->execute([$account['email'], $otp]);
-    $otpRecord = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    if (!$otpRecord) {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid or expired OTP']);
-        exit;
-    }
-
-    // OTP verified successfully - Set up session
-    // session_regenerate_id(true); // COMMENTED - causing session conflicts
-    session_regenerate_id(true); // Regenerate session ID for security
-    
-    // Set session variables
-    if ($isAdmin) {
-        $_SESSION['admin_id'] = $account['id'];
-        $_SESSION['is_admin'] = true;
-    } else {
-        $_SESSION['user_id'] = $account['id'];
-        $_SESSION['is_admin'] = false;
-    }
-    
-    $_SESSION['username'] = $account['username'];
-    $_SESSION['email'] = $account['email'];
-    $_SESSION['user_type'] = $isAdmin ? 'admin' : 'user';
-
-    // Generate JWT token
-    $jwtPayload = [
-        'user_id' => $account['id'],
-        'email' => $account['email'],
-        'username' => $account['username'],
-        'is_admin' => $isAdmin,
-        'exp' => time() + $securityConfig['jwt']['timeout'],
-        'iat' => time()
-    ];
-    
-    $header = json_encode(['typ' => 'JWT', 'alg' => 'HS256']);
-    $payload = json_encode($jwtPayload);
-    
-    $base64Header = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($header));
-    $base64Payload = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($payload));
-    
-    $signature = hash_hmac('sha256', $base64Header . "." . $base64Payload, $securityConfig['jwt']['secret'], true);
-    $base64Signature = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($signature));
-    
-    $jwt = $base64Header . "." . $base64Payload . "." . $base64Signature;
-    $_SESSION['jwt'] = $jwt;
-
-    // Delete used OTP
-    $stmt = $pdo->prepare("DELETE FROM otps WHERE email = ?");
-    $stmt->execute([$account['email']]);
-
-    // Determine redirect URL
-    $redirectUrl = $isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
-
-    // Log successful login
-    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Successful login for {$account['email']}, Session ID: " . session_id() . ", Redirecting to: {$redirectUrl}\n", FILE_APPEND);
-
-    // Add this debugging line
-    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Sending redirect response to {$redirectUrl}\n", FILE_APPEND);
-
-     // Send success response
-    echo json_encode([
-        'status' => 'success',
-        'redirect' => $redirectUrl,
-        'message' => 'Login successful',
-        'user_type' => $isAdmin ? 'admin' : 'user',
-        'is_admin' => $isAdmin
-    ]);
-    
-    // Force session write and close
-    session_write_close();
-    exit;
-
 }
 ?>
 <!DOCTYPE html>
