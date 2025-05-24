@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Log OTP generation
             file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] OTP sent to {$account['email']}\n", FILE_APPEND);
             
-            echo json_encode(['status' => 'success', 'message' => 'OTP sent to your email']);
+            echo json_encode(['status' => 'success', 'message' => 'OTP sent to your email', 'requires_otp' => true]);
             exit;
         }
 
@@ -155,12 +155,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Send success response
         echo json_encode([
-            'status' => 'success',
-            'redirect' => $redirectUrl,
-            'message' => 'Login successful',
-            'user_type' => $isAdmin ? 'admin' : 'user',
-            'is_admin' => $isAdmin
-        ]);
+        'status' => 'success',
+        'redirect' => $redirectUrl,
+        'message' => 'Login successful',
+        'user_type' => $isAdmin ? 'admin' : 'user',
+        'is_admin' => $isAdmin,
+        'is_authenticated' => true  // Add this line
+         ]);
         
         // Force session write and close
         session_write_close();

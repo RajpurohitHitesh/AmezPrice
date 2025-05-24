@@ -53,31 +53,30 @@ async function fetchWithCsrf(url, options = {}) {
             credentials: 'same-origin'
         });
         
-        console.log('Response status:', response.status);
-        console.log('Response headers:', response.headers);
-        
         if (!response.ok) {
             const text = await response.text();
-            console.error('Error response text:', text);
             throw new Error(`HTTP error! status: ${response.status}, response: ${text}`);
         }
         
         const text = await response.text();
-        console.log('Raw response text:', text);
-        
-        // Check if response is empty
         if (!text.trim()) {
             throw new Error('Empty response from server');
         }
         
         try {
             const jsonResponse = JSON.parse(text);
-            console.log('Parsed JSON response:', jsonResponse);
+            // Add this check
+            if (jsonResponse.status === 'success' && jsonResponse.is_authenticated) {
+                // Force immediate redirect for authenticated responses
+                if (jsonResponse.redirect) {
+                    window.location.replace(jsonResponse.redirect);
+                    return jsonResponse; // Return to prevent further processing
+                }
+            }
             return jsonResponse;
         } catch (parseError) {
             console.error('JSON parse error:', parseError);
-            console.error('Response text that failed to parse:', text.substring(0, 500));
-            throw new Error('Server returned invalid JSON. Response: ' + text.substring(0, 100));
+            throw new Error('Server returned invalid JSON');
         }
     } catch (error) {
         console.error('Fetch error:', error);
@@ -911,31 +910,37 @@ const Auth = {
                 // Clear any pending state
                 this.pendingAuth = null;
                 
-                // Hide all popups
+                // Hide all popups immediately
                 document.querySelectorAll('.popup').forEach(popup => {
-                    Popup.hide(popup.id);
+                    popup.style.display = 'none';
+                    popup.style.opacity = '0';
                 });
                 
-                // Remove overlay
+                // Remove overlay immediately
                 const overlay = document.querySelector('.popup-overlay');
                 if (overlay) {
                     overlay.style.display = 'none';
                     overlay.style.opacity = '0';
                 }
                 
+                // Clear body overflow
+                document.body.style.overflow = 'auto';
+                
                 // Clear any form data
                 document.querySelectorAll('form').forEach(form => form.reset());
                 
-                // Force redirect
+                // Force immediate redirect
                 if (response.redirect) {
-                    window.location.href = response.redirect;
+                    window.location.replace(response.redirect);
                 } else {
-                    window.location.href = response.is_admin ? '/admin/dashboard' : '/user/dashboard';
+                    window.location.replace(response.is_admin ? '/admin/dashboard' : '/user/dashboard');
                 }
-
+                
+                // Return early to prevent any other processing
+                return;
             } else {
-                throw new Error(response.message || 'OTP verification failed');
-            }
+          throw new Error(response.message || 'OTP verification failed');
+        }
         } catch (error) {
             console.error('OTP verification error:', error);
             Popup.show('error-popup', error.message || 'Failed to verify OTP');
