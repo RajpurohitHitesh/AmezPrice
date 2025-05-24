@@ -6,6 +6,7 @@ require_once '../middleware/auth.php';
 require_once '../config/session.php';
 
 startApplicationSession();
+requireAdminAuth();
 
 // Debug logging
 file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard access attempt, Session ID: " . session_id() . "\n", FILE_APPEND);
@@ -17,9 +18,6 @@ if (!isset($_SESSION['admin_id']) || !isset($_SESSION['authenticated']) || $_SES
     header("Location: " . LOGIN_REDIRECT);
     exit;
 }
-
-// Additional role verification
-requireAdminAuth();
 
 file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard access granted for admin: " . $_SESSION['admin_id'] . "\n", FILE_APPEND);
 

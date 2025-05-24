@@ -4,7 +4,7 @@ require_once '../config/security.php';
 require_once '../config/globals.php';
 require_once '../middleware/csrf.php';
 require_once '../middleware/auth.php';
-session_start();
+startApplicationSession();
 requireUserAuth();
 
 // Debug logging
