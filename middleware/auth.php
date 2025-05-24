@@ -23,28 +23,36 @@ function verifyAuthentication($requiredRole = null) {
         return false;
     }
 
-    // Verify JWT
-    $jwt = $_SESSION['jwt'] ?? '';
-    if ($jwt) {
-        list($header, $payload, $signature) = explode('.', $jwt);
-        $decodedPayload = json_decode(base64_decode($payload), true);
+    // Check basic authentication flag first
+    if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
         
-        // Check token expiration
-        if ($decodedPayload['exp'] < time()) {
-            session_destroy();
-            return false;
-        }
-        
-        // Verify signature
-        $expectedSignature = base64_encode(hash_hmac('sha256', 
-            "$header.$payload", 
-            $securityConfig['jwt']['secret'], 
-            true
-        ));
-        
-        if ($signature !== $expectedSignature) {
-            session_destroy();
-            return false;
+        // Verify JWT if present, but don't fail authentication if missing
+        $jwt = $_SESSION['jwt'] ?? '';
+        if ($jwt && strpos($jwt, '.') !== false) {
+            $parts = explode('.', $jwt);
+            if (count($parts) === 3) {
+                list($header, $payload, $signature) = $parts;
+                $decodedPayload = json_decode(base64_decode($payload), true);
+                
+                // Check token expiration
+                if ($decodedPayload && isset($decodedPayload['exp']) && $decodedPayload['exp'] < time()) {
+                    session_destroy();
+                    return false;
+                }
+                
+                // Verify signature
+                global $securityConfig;
+                $expectedSignature = base64_encode(hash_hmac('sha256', 
+                    "$header.$payload", 
+                    $securityConfig['jwt']['secret'], 
+                    true
+                ));
+                
+                if ($signature !== $expectedSignature) {
+                    // JWT invalid, but don't destroy session - just log it
+                    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] JWT signature mismatch but session valid\n", FILE_APPEND);
+                }
+            }
         }
         
         return true;

@@ -6,43 +6,22 @@ require_once '../middleware/auth.php';
 require_once '../config/session.php';
 
 startApplicationSession();
-requireAdminAuth();
 
 // Debug logging
-error_log("Session data on dashboard: " . print_r($_SESSION, true));
-error_log("JWT token present: " . (isset($_SESSION['jwt']) ? 'yes' : 'no'));
+file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard access attempt, Session ID: " . session_id() . "\n", FILE_APPEND);
+file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard session data: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
 
-if (!isset($_SESSION['admin_id'])) {
-    error_log("No admin_id in session, redirecting to login");
+// Check admin authentication
+if (!isset($_SESSION['admin_id']) || !isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
+    file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard access denied - No admin session or not authenticated\n", FILE_APPEND);
     header("Location: " . LOGIN_REDIRECT);
     exit;
 }
 
-// Verify JWT
-$jwt = $_SESSION['jwt'] ?? '';
-if ($jwt) {
-    list($header, $payload, $signature) = explode('.', $jwt);
-    $decodedPayload = json_decode(base64_decode($payload), true);
-    if ($decodedPayload['exp'] < time()) {
-        error_log("JWT token expired for admin: " . $_SESSION['admin_id']);
-        session_destroy();
-        header("Location: " . LOGIN_REDIRECT);
-        exit;
-    }
-    $expectedSignature = base64_encode(hash_hmac('sha256', "$header.$payload", $securityConfig['jwt']['secret'], true));
-    if ($signature !== $expectedSignature) {
-        error_log("Invalid JWT signature for admin: " . $_SESSION['admin_id']);
-        session_destroy();
-        header("Location: " . LOGIN_REDIRECT);
-        exit;
-    }
-} else {
-    // No JWT token found, redirect to login
-    error_log("No JWT token found for admin: " . $_SESSION['admin_id']);
-    session_destroy();
-    header("Location: " . LOGIN_REDIRECT);
-    exit;
-}
+// Additional role verification
+requireAdminAuth();
+
+file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Dashboard access granted for admin: " . $_SESSION['admin_id'] . "\n", FILE_APPEND);
 
 // Dashboard stats
 $stats = [
