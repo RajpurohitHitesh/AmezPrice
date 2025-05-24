@@ -5,6 +5,9 @@ require_once __DIR__ . '/../config/globals.php';
 startApplicationSession();
 
 $csrfToken = generateCsrfToken();
+
+$config = include 'config/global.php';
+$fa_kit_id = $config['fontawesome_kit_id'];
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
