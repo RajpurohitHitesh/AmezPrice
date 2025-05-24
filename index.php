@@ -1,6 +1,7 @@
 <?php
 require_once 'config/database.php';
 require_once 'config/category.php';
+require_once 'config/glocals.php';
 session_start();
 
 // Fetch categories
