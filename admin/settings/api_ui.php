@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API & UI Settings - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/admin.css">
-    <script src="https://kit.fontawesome.com/<?php echo $kit_id; ?>.js" crossorigin="anonymous"></script>
+    <script src="<?php echo fa_kit_url(); ?>" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include '../../include/navbar.php'; ?>

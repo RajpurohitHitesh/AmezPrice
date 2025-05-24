@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password - AmezPrice</title>
     <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="https://kit.fontawesome.com/<?php echo $kit_id; ?>.js" crossorigin="anonymous"></script>
+    <script src="<?php echo fa_kit_url(); ?>" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include __DIR__ . '/../include/navbar.php'; ?>
