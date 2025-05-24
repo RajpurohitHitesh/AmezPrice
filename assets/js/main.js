@@ -926,57 +926,60 @@ const Auth = {
             console.log('OTP verification response:', response);
 
             if (response.status === 'success') {
-                // Clear any pending state
-                this.pendingAuth = null;
-                
-                // Clear any existing timers
-                if (this.resendTimer) {
-                    clearInterval(this.resendTimer);
-                    this.resendTimer = null;
-                }
-                
-                // Hide all popups immediately
-                document.querySelectorAll('.popup').forEach(popup => {
-                    popup.style.display = 'none';
-                    popup.style.opacity = '0';
-                });
-                
-                // Remove overlay immediately
-                const overlay = document.querySelector('.popup-overlay');
-                if (overlay) {
-                    overlay.style.display = 'none';
-                    overlay.style.opacity = '0';
-                }
-                
-                // Clear body overflow
-                document.body.style.overflow = 'auto';
-                
-                // Clear any form data
-                document.querySelectorAll('form').forEach(form => form.reset());
-                
-                // Show success message briefly before redirect
-                if (this.pendingAuth?.formType === 'signup-form') {
-                    Popup.show('success-popup', `
-                        <h3>Success!</h3>
-                        <p>Account created successfully. Redirecting to login...</p>
-                    `);
-                    setTimeout(() => {
-                        if (response.redirect) {
-                            window.location.href = response.redirect;
-                        } else {
-                            window.location.href = '/auth/login.php';
-                        }
-                    }, 1500);
-                } else {
-                    // For login, redirect immediately
+            // Store formType before clearing pendingAuth
+            const currentFormType = this.pendingAuth?.formType;
+            
+            // Clear any pending state
+            this.pendingAuth = null;
+            
+            // Clear any existing timers
+            if (this.resendTimer) {
+                clearInterval(this.resendTimer);
+                this.resendTimer = null;
+            }
+            
+            // Hide all popups immediately
+            document.querySelectorAll('.popup').forEach(popup => {
+                popup.style.display = 'none';
+                popup.style.opacity = '0';
+            });
+            
+            // Remove overlay immediately
+            const overlay = document.querySelector('.popup-overlay');
+            if (overlay) {
+                overlay.style.display = 'none';
+                overlay.style.opacity = '0';
+            }
+            
+            // Clear body overflow
+            document.body.style.overflow = 'auto';
+            
+            // Clear any form data
+            document.querySelectorAll('form').forEach(form => form.reset());
+            
+            // Show success message briefly before redirect
+            if (currentFormType === 'signup-form') {
+                Popup.show('success-popup', `
+                    <h3>Success!</h3>
+                    <p>Account created successfully. Redirecting to login...</p>
+                `);
+                setTimeout(() => {
                     if (response.redirect) {
                         window.location.href = response.redirect;
-                    } else if (response.is_admin) {
-                        window.location.href = '/admin/dashboard';
                     } else {
-                        window.location.href = '/user/dashboard';
+                        window.location.href = '/auth/login.php';
                     }
+                }, 1500);
+            } else {
+                // For login, redirect immediately
+                if (response.redirect) {
+                    window.location.href = response.redirect;
+                } else if (response.is_admin) {
+                    window.location.href = '/admin/dashboard';
+                } else {
+                    window.location.href = '/user/dashboard';
                 }
+            }
                 
                 return; // Prevent further processing
             } else {
