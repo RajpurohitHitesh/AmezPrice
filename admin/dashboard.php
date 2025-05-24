@@ -2,10 +2,10 @@
 require_once '../config/database.php';
 require_once '../config/security.php';
 require_once '../middleware/csrf.php';
-require_once '../middleware/auth.php';
 require_once '../config/session.php';
+
+// Start session first
 startApplicationSession();
-requireAdminAuth();
 
 // Debug logging
 error_log("Session data on dashboard: " . print_r($_SESSION, true));
@@ -23,16 +23,24 @@ if ($jwt) {
     list($header, $payload, $signature) = explode('.', $jwt);
     $decodedPayload = json_decode(base64_decode($payload), true);
     if ($decodedPayload['exp'] < time()) {
+        error_log("JWT token expired for admin: " . $_SESSION['admin_id']);
         session_destroy();
         header("Location: " . LOGIN_REDIRECT);
         exit;
     }
     $expectedSignature = base64_encode(hash_hmac('sha256', "$header.$payload", $securityConfig['jwt']['secret'], true));
     if ($signature !== $expectedSignature) {
+        error_log("Invalid JWT signature for admin: " . $_SESSION['admin_id']);
         session_destroy();
         header("Location: " . LOGIN_REDIRECT);
         exit;
     }
+} else {
+    // No JWT token found, redirect to login
+    error_log("No JWT token found for admin: " . $_SESSION['admin_id']);
+    session_destroy();
+    header("Location: " . LOGIN_REDIRECT);
+    exit;
 }
 
 // Dashboard stats
