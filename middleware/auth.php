@@ -3,7 +3,7 @@ require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../config/security.php';
 
 function verifyAuthentication($requiredRole = null) {
-    session_start();
+    startApplicationSession();
     
     // Determine current role
     $currentRole = null;

@@ -3,7 +3,8 @@ require_once '../config/database.php';
 require_once '../config/security.php';
 require_once '../middleware/csrf.php';
 require_once '../middleware/auth.php';
-session_start();
+require_once '../config/session.php';
+startApplicationSession();
 requireAdminAuth();
 
 // Debug logging
