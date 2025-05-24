@@ -5,6 +5,7 @@ require_once __DIR__ . '/../config/globals.php';
 startApplicationSession();
 
 $csrfToken = generateCsrfToken();
+$fontAwesomeKitUrl = getFontAwesomeKitUrl();
 
 ?>
 <meta charset="UTF-8">

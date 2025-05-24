@@ -156,12 +156,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Add this debugging line
     file_put_contents(__DIR__ . '/../logs/auth.log', "[" . date('Y-m-d H:i:s') . "] Sending redirect response to {$redirectUrl}\n", FILE_APPEND);
 
-    // Send success response
+     // Send success response
     echo json_encode([
         'status' => 'success',
         'redirect' => $redirectUrl,
-        'message' => 'Login successful'
+        'message' => 'Login successful',
+        'user_type' => $isAdmin ? 'admin' : 'user',
+        'is_admin' => $isAdmin
     ]);
+    
+    // Force session write and close
+    session_write_close();
     exit;
 
 }
