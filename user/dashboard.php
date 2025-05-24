@@ -17,26 +17,6 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-// Verify JWT
-$jwt = $_SESSION['jwt'] ?? '';
-if ($jwt) {
-    list($header, $payload, $signature) = explode('.', $jwt);
-    $decodedPayload = json_decode(base64_decode($payload), true);
-    if ($decodedPayload['exp'] < time()) {
-        error_log("JWT token expired for user: " . $_SESSION['user_id']);
-        session_destroy();
-        header("Location: " . LOGIN_REDIRECT);
-        exit;
-    }
-    $expectedSignature = base64_encode(hash_hmac('sha256', "$header.$payload", $securityConfig['jwt']['secret'], true));
-    if ($signature !== $expectedSignature) {
-        error_log("Invalid JWT signature for user: " . $_SESSION['user_id']);
-        session_destroy();
-        header("Location: " . LOGIN_REDIRECT);
-        exit;
-    }
-}
-
 $userId = $_SESSION['user_id'];
 
 
