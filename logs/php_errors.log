@@ -1,0 +1,1086 @@
+[21-May-2025 10:43:43 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:43:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:43:43 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:43:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:43:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:43:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:43:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:44:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:44:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:44:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:52:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:52:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:52:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:53:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:53:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 10:53:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:08:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:23:57 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:23:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:23:57 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:23:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:23:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:23:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:23:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:40:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 12:40:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 14:41:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 14:41:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 14:41:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:09:00 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:09:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:09:00 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:39:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:39:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 15:39:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:31 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:10:31 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:15:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 16:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:42:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:43:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:43:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:43:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:56:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:56:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 17:56:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:27:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:28:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:51 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:52 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:52 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:29:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:30:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:32:02 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:32:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:32:02 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:39:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:39:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:39:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:41:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:43:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:36 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:36 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:45:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:46:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:46:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:46:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:47:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:48:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:48:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:48:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:49:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:49:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:49:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:52:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:52:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:52:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:54:31 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:54:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:54:31 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:17 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:17 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 19:56:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 20:06:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 20:06:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[21-May-2025 20:06:03 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 17:26:26 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[22-May-2025 17:26:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[22-May-2025 17:26:26 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[22-May-2025 17:26:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 17:26:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 17:26:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 17:26:27 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 10
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 10
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 14
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 14
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:09:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:09:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:09:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:15:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:15:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:15:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:00 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:00 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 11
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Undefined variable $marketplaces in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\navbar.php on line 15
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 43
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Undefined variable $telegramConfig in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:17:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\include\footer.php on line 44
+[22-May-2025 18:28:29 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\include/config/telegram.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\include\footer.php on line 2
+[22-May-2025 18:28:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\include/config/telegram.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\include\footer.php:2
+Stack trace:
+#0 C:\xampp\htdocs\index.php(114): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\include\footer.php on line 2

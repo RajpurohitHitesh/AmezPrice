@@ -1,0 +1,159 @@
+[2025-05-21 17:43:29] Session started: 43tpmovi335nd12gi4h7ti03me, Secure: yes
+[2025-05-21 17:43:29] Login form rendered, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:43:29] CSRF token generated: 89d1f71e10714b815a23db94fa6fb53eecfaacd09a4bf070b08ee9b5d57377f0 for session 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:43:29] Header CSRF token: 89d1f71e10714b815a23db94fa6fb53eecfaacd09a4bf070b08ee9b5d57377f0, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:45:12] Session started: 43tpmovi335nd12gi4h7ti03me, Secure: yes
+[2025-05-21 17:45:12] Signup form rendered, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:45:12] Header CSRF token: 89d1f71e10714b815a23db94fa6fb53eecfaacd09a4bf070b08ee9b5d57377f0, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:46:27] Session started: 43tpmovi335nd12gi4h7ti03me, Secure: yes
+[2025-05-21 17:46:27] Login form rendered, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:46:27] Header CSRF token: 89d1f71e10714b815a23db94fa6fb53eecfaacd09a4bf070b08ee9b5d57377f0, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:46:32] Session started: 43tpmovi335nd12gi4h7ti03me, Secure: yes
+[2025-05-21 17:46:32] Forgot password form rendered, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 17:46:32] Header CSRF token: 89d1f71e10714b815a23db94fa6fb53eecfaacd09a4bf070b08ee9b5d57377f0, Session ID: 43tpmovi335nd12gi4h7ti03me
+[2025-05-21 19:32:06] Session started: ivr12t8vna4vpl8etd4g835e0u, Secure: yes
+[2025-05-21 19:32:06] Session ID regenerated: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 19:32:06] CSRF token generated for session 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 19:35:29] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 19:39:39] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 19:56:23] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 19:56:23] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 20:06:06] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 20:06:06] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 20:06:33] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 20:06:33] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 20:07:00] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 20:07:00] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 20:07:01] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 20:07:01] Forgot password form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-21 20:07:45] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-21 20:07:45] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 17:26:34] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 17:26:34] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 17:26:44] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 17:26:44] Forgot password form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 17:26:51] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 17:26:51] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:06:26] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:06:26] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:06:29] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:06:29] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:06:30] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:06:30] Forgot password form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:09:25] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:09:25] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:09:30] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:09:30] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:16:32] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:16:32] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:16:43] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:16:43] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:16:52] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:16:52] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:17:10] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:17:10] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:23:56] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:23:56] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:23:59] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:23:59] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:24:01] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:01] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:24:04] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:04] Forgot password form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:24:05] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:05] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:24:23] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:23] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:24:35] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:35] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:24:41] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:41] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:24:49] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:24:49] Signup form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:25:01] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:25:01] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:25:08] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:25:08] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:25:09] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:25:09] Forgot password form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:25:11] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:25:11] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:26:44] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:26:44] Login form rendered, Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+[2025-05-22 18:27:00] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:27:00] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:27:08] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:27:08] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-22 18:27:15] Session started: 29kcmkqn5dqejrgq74ceni1t0g, Secure: yes
+[2025-05-22 18:27:15] CSRF token validation failed
+Session ID: 29kcmkqn5dqejrgq74ceni1t0g
+Expected: 493a8512ec074d5e195b9c67093e839fc4a6239a6cf0871d566622bc6ccc5de1
+Received: empty
+[2025-05-24 12:21:04] Logout for user ID: unknown
+[2025-05-24 12:21:07] Session started: 4r30f3fbscgatgbk76c5b8fn7i, Secure: yes
+[2025-05-24 12:21:07] Login form rendered, Session ID: 4r30f3fbscgatgbk76c5b8fn7i
+[2025-05-24 12:21:10] Session started: 4r30f3fbscgatgbk76c5b8fn7i, Secure: yes
+[2025-05-24 12:21:11] Session started: 5fa04cpsqcgmfie74dtr7d38kv, Secure: yes
+[2025-05-24 12:21:11] Session ID regenerated: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:11] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:11] CSRF token generated for session um3kjp4rjkoqsovn9c4hateffg: 62bbd2f77ca00128e6bd52e97d9b1ee302cdc8576a112ebf454be52389bce1b6
+[2025-05-24 12:21:13] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:21:13] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:14] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:21:14] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:18] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:21:18] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:26] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:21:26] AJAX CSRF check - token received: 62bbd2f77ca00128e6bd52e97d9b1ee302cdc8576a112ebf454be52389bce1b6
+[2025-05-24 12:21:26] CSRF token validation successful for session um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:26] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:21:26] OTP sent to iamrajpurohithitesh@gmail.com
+[2025-05-24 12:22:15] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:22:15] AJAX CSRF check - token received: 62bbd2f77ca00128e6bd52e97d9b1ee302cdc8576a112ebf454be52389bce1b6
+[2025-05-24 12:22:15] CSRF token validation successful for session um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:22:15] Login form rendered, Session ID: um3kjp4rjkoqsovn9c4hateffg
+[2025-05-24 12:22:15] Successful login for iamrajpurohithitesh@gmail.com
+[2025-05-24 12:22:15] Session started: um3kjp4rjkoqsovn9c4hateffg, Secure: yes
+[2025-05-24 12:22:16] Session started: 2vedscip6ti4llfruaesum3d2o, Secure: yes
+[2025-05-24 12:22:16] Session ID regenerated: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:16] Login form rendered, Session ID: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:16] CSRF token generated for session t34t05tfrkbiv0b87hg8cu47cs: f918d2c0fadabc572010202193adc31b157b9ca9f45b4ba5207cb577ff4a79bb
+[2025-05-24 12:22:23] Session started: t34t05tfrkbiv0b87hg8cu47cs, Secure: yes
+[2025-05-24 12:22:23] Login form rendered, Session ID: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:29] Session started: t34t05tfrkbiv0b87hg8cu47cs, Secure: yes
+[2025-05-24 12:22:29] AJAX CSRF check - token received: f918d2c0fadabc572010202193adc31b157b9ca9f45b4ba5207cb577ff4a79bb
+[2025-05-24 12:22:29] CSRF token validation successful for session t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:29] Login form rendered, Session ID: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:40] Session started: t34t05tfrkbiv0b87hg8cu47cs, Secure: yes
+[2025-05-24 12:22:40] AJAX CSRF check - token received: f918d2c0fadabc572010202193adc31b157b9ca9f45b4ba5207cb577ff4a79bb
+[2025-05-24 12:22:40] CSRF token validation successful for session t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:40] Login form rendered, Session ID: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:40] OTP sent to iamrajpurohithitesh@gmail.com
+[2025-05-24 12:22:53] Session started: t34t05tfrkbiv0b87hg8cu47cs, Secure: yes
+[2025-05-24 12:22:53] AJAX CSRF check - token received: f918d2c0fadabc572010202193adc31b157b9ca9f45b4ba5207cb577ff4a79bb
+[2025-05-24 12:22:53] CSRF token validation successful for session t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:53] Login form rendered, Session ID: t34t05tfrkbiv0b87hg8cu47cs
+[2025-05-24 12:22:53] Successful login for iamrajpurohithitesh@gmail.com
+[2025-05-24 12:22:53] Session started: t34t05tfrkbiv0b87hg8cu47cs, Secure: yes
+[2025-05-24 12:22:53] Session started: phgmg2gpdv2pes5bd113vildoe, Secure: yes
+[2025-05-24 12:22:53] Session ID regenerated: fs7ler6msns3lbhqdisukg5046
+[2025-05-24 12:22:53] Login form rendered, Session ID: fs7ler6msns3lbhqdisukg5046
+[2025-05-24 12:22:53] CSRF token generated for session fs7ler6msns3lbhqdisukg5046: 47552ed5b503a9e3de47f5d266bd4dc6d2d1b6d489b64da89ad5ec035deb8ba8
