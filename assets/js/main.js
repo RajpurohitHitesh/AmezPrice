@@ -879,8 +879,6 @@ async submitForgotPassword(url, data, form) {
 
 // SubmitOtp function
 async submitOtp() {
-    console.log('submitOtp called');
-    
     const otpInput = document.getElementById('otp-input');
     if (!otpInput || !otpInput.value.trim()) {
         Popup.show('error-popup', '<h3>Error</h3><p>Please enter the OTP</p>', true);
@@ -896,7 +894,7 @@ async submitOtp() {
         return;
     }
 
-    const submitBtn = document.getElementById('submit-otp-btn') || form.querySelector('button[type="submit"]');
+    const submitBtn = document.querySelector('#otp-popup .btn-primary');
     const originalText = submitBtn?.innerHTML;
     
     try {
@@ -919,8 +917,6 @@ async submitOtp() {
                     '/auth/forgot-password.php';
 
         console.log('Submitting OTP with data:', data);
-        console.log('About to fetch with URL:', url);
-        console.log('Current page URL:', window.location.href);
 
         const result = await fetchWithCsrf(url, {
             method: 'POST',
@@ -929,35 +925,29 @@ async submitOtp() {
         });
 
         console.log('OTP submission result:', result);
-        console.log('Result type:', typeof result);
-        console.log('Result keys:', Object.keys(result || {}));
 
         if (!result || typeof result !== 'object') {
             throw new Error('Invalid server response');
         }
-        
-        console.log('Full OTP result:', result);
 
         if (result.status === 'success') {
-            console.log('SUCCESS BLOCK ENTERED');
-            
             Popup.hide('otp-popup');
             console.log('Login successful, redirecting to:', result.redirect);
             
-            // Use setTimeout to ensure popup is hidden before redirect
-            setTimeout(() => {
-                if (result.redirect) {
-                    console.log('Executing redirect to:', result.redirect);
-                    window.location.href = result.redirect;
-                } else {
-                    // Fallback redirect based on user type
-                    const isAdmin = result.user_type === 'admin' || result.is_admin;
-                    const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
-                    console.log('No redirect provided, using fallback:', fallbackUrl);
-                    window.location.href = fallbackUrl;
-                }
-            }, 100);
+            // Disable any other JavaScript that might interfere
+            window.onbeforeunload = null;
             
+            // Force redirect using location.replace instead of href
+            if (result.redirect) {
+                console.log('Executing redirect to:', result.redirect);
+                window.location.replace(result.redirect);
+            } else {
+                // Fallback redirect based on user type
+                const isAdmin = result.user_type === 'admin' || result.is_admin;
+                const fallbackUrl = isAdmin ? '/admin/dashboard.php' : '/user/dashboard.php';
+                console.log('No redirect provided, using fallback:', fallbackUrl);
+                window.location.replace(fallbackUrl);
+            }
             return; // Prevent further execution
         } else {
             throw new Error(result.message || 'OTP verification failed');
