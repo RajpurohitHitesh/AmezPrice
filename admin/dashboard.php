@@ -5,7 +5,6 @@ require_once '../middleware/csrf.php';
 require_once '../middleware/auth.php';
 require_once '../config/session.php';
 
-// अब यह safely session start करेगा बिना regenerate किए
 startApplicationSession();
 requireAdminAuth();
 
